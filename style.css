@@ -1,0 +1,105 @@
+
+tr:nth-child(odd)
+{
+   background-color:white;/* Couleur mauve clair */ /*Donne la couleur au ligne pair*/
+}
+ 
+tr:nth-child(even)
+{
+   background-color: grey;/* Couleur mauve foncé */ /*Donne la couleur au ligne impaire*/
+}
+
+table 
+{
+	border: medium solid #000000;
+	width: 30%;
+}
+
+td, th
+{
+	border: thin solid #000000;
+	width: 20%;
+	background-color: grey;
+}
+
+p
+ {
+ 	font-family:"Opensans";
+ 	color:#424242;
+ 	letter-spacing: 2px; /*PAS SUR QUE CE SOIT CE TYPE D'ESPACEMENT*/
+ 	float:
+ 	line-height: 150%; /*ESPACEMENT DES LIGNES ??*/
+ }
+
+ a:hover 
+ {
+   color: #0000FF; /*A VERIFIER*/
+ }
+
+ a:visited
+ {
+ 	color: #BE81F7; /*A VERIFIER*/
+ }
+
+body
+{
+	width: 100%
+    margin: 0 auto;
+    background-color: grey;
+    background-image: url("farmer.jpg");
+    background-repeat: no-repeat;
+    background-position: bottom-right;
+    background-size: cover;
+}
+
+
+q
+{
+	background-color: #F2F2F2;
+	border-color: firebrick 3px; /*Ajoutez une bordure Firebrick 3px à gauche de chaque devis*/
+	border-spacing: 30px; /*Le texte des citations touche la bordure, ce n'est pas joli. Ajoutez un espace de 30 pixels entre la bordure et le texte de la citation.*/
+	font-style: italic;
+	font-size: 160%;
+}
+
+h1
+{
+	background-color: yellow; 
+}
+
+.good
+{
+	text-transform: capitalize; 
+	color: red;
+}
+.bad
+{
+	text-transform: capitalize; 
+	color: green;
+}
+	
+nav 
+{
+	float: right;
+}
+
+.bien
+{
+padding-right: 15px;
+background-image: url(https://raw.githubusercontent.com/becodeorg/CRL-Woods-4.27/main/Assets/bien.png?token=ASH6VLW625QC6V24TTGMJULAAWOWY);
+background-repeat: no-repeat;
+background-position: right;
+background-size: 15px;
+
+}
+
+
+
+.mal
+{
+padding-right: 15px;
+background-position: right;
+background-repeat: no-repeat;
+background-size: 15px;
+background-image:url("mal.png");
+}
